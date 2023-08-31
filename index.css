@@ -56,3 +56,8 @@
     flex-wrap: wrap;
     margin: 0.5rem;
 }
+
+.filter-btn{
+    padding: 0.625rem;
+    margin: 0.625rem;
+}

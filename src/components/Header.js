@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import foodLogo from "../../resources/images/foodLogo.png";
 import { useEffect, useState } from "react";
 
@@ -9,11 +10,11 @@ const Header = () => {
   // if dependency is empty => [], useEffect will execute on only initial component rendering
   // if dependency has some value => [loginBtn], useEffect wil execute only on when the state will update
   useEffect(() => {
-    const v = setTimeout(()=>console.log("useEffect"), 2000);
-    return ()=>{
+    const v = setTimeout(() => console.log("useEffect"), 2000);
+    return () => {
       console.log("unmounting");
       clearTimeout(v);
-    }
+    };
   });
   return (
     <div className="header">
@@ -22,9 +23,15 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
+          </li>
           <li>cart</li>
           <button
             className="login"

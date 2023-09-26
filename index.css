@@ -30,6 +30,7 @@
 .nav-items > ul > li{
     list-style-type: none;
     padding: 0 0.5rem;
+    cursor: pointer;
 }
 
 .search{
@@ -58,8 +59,12 @@
 }
 
 .filter-btn{
-    padding: 0.625rem;
-    margin: 0.625rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.search-btn{
+    cursor: pointer;
 }
 
 .shimmer-card{

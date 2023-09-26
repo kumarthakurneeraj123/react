@@ -2,6 +2,7 @@ import { LOGO_URL } from "../utils/constants";
 const RestaurantCard = (props)=>{
     const {resObj} = props;
     const {cloudinaryImageId,name, cuisines,avgRating,sla,costForTwo  } = resObj?.info;
+    console.log(resObj?.info);
     return (
       <div className="res-card" style={{backgroundColor:"#f0f0f0",}}>
         <img className="res-logo" alt="restaurant-logo" src={`${LOGO_URL}/${cloudinaryImageId}`} />

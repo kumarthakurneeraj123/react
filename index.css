@@ -84,3 +84,9 @@
 .filter{
     display: flex;
 }
+
+.user-card{
+    padding: 0.625rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+}

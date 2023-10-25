@@ -14,7 +14,7 @@ const AppLayout = () => {
   return (
     <div className="app">
       <Header />
-      {/* Outlet component is using here, it will replace component based on route like
+      {/*Outlet component is using here, it will replace component based on route like
       if path: "/" outlet will be replaced by <Body />
       if path: "/about" outlet will be replaced by <About />
       if path: "/contact" outlet will be replaced by <Contact /> */}

@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 
@@ -39,6 +39,7 @@
 
 .res-card{
     width: 12rem;
+    height: 35rem;
     padding: 0.25rem;
     margin: 0.5rem;
 }
@@ -89,4 +90,19 @@
     padding: 0.625rem;
     border: 1px solid black;
     margin: 0.5rem;
-} */
+}
+
+.dot{
+    width: 10px;
+    height: 1rem;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+}
+.gray-dot{
+    width: 10px;
+    height: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+}
